@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'activesupport', '~> 4.1.1'
   spec.add_dependency 'sinatra', '~> 1.4.4'
   spec.add_dependency 'dashing', '~> 1.3.4'
-  spec.add_dependency 'nagiosharder'
+  # spec.add_dependency 'nagiosharder' # Disabled for now: Using old/conflicting dependencies
 
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
